@@ -7,6 +7,7 @@ TagManager:
   - Targets
   - Food Button
   - Food
+  - Resource
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Right Wall
+  - Resource
   - 
   - 
   - 
