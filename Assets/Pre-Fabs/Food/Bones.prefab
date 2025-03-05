@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 453349127321349121}
   - component: {fileID: 611449759102639603}
   - component: {fileID: 6815292578293686092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bones
   m_TagString: Food
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1258143351559404445}
   - component: {fileID: 5110872057334330274}
   - component: {fileID: 5109815539758638807}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rubbish
   m_TagString: Food
   m_Icon: {fileID: 0}
