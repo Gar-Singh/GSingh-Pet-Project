@@ -8,6 +8,7 @@ TagManager:
   - Food Button
   - Food
   - Resource
+  - Inventory
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Pet
   - Food
   - Resource Flying
-  - 
+  - Inventory
   - 
   - 
   - 
