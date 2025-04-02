@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Ectoplasm Counter
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":199.4157},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-306.0,"y":50.0},"guid":"531b5a26-3f5e-48c8-895b-34f077eb834e","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":206.0,"y":50.0},"guid":"b63618de-10c2-460c-a988-06ff2aae5b9b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Food
+      Inventory","$type":"System.String"}},"position":{"x":-354.0,"y":163.0},"guid":"df38c869-cfd0-4ea0-b55b-fea90de83070","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"defaultValues":{},"position":{"x":-128.0,"y":169.0},"guid":"efdb91e5-9977-46a0-9530-ab8c52daf187","$version":"A","$type":"Unity.VisualScripting.GetDictionaryItem","$id":"16"},{"type":"System.String","value":{"$content":"Ectoplasm","$type":"System.String"},"defaultValues":{},"position":{"x":-305.0,"y":267.0},"guid":"e33fb8ee-784f-48f1-a847-97c8b49d8fc7","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"chainable":false,"parameterNames":[],"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":36.0,"y":148.0},"guid":"d3e42637-11c2-4940-9974-fa2a4a36652d","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"8f05ded7-7d41-4de3-8229-8a39f75ff24d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"result","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"54b3acb5-2d7f-4a81-ad39-9f548f2431c3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"dictionary","guid":"5d19251c-a6c9-4c3b-a487-e1af4c044151","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"16"},"destinationKey":"key","guid":"d6297b33-059f-406e-84d0-e049bd2c648e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"a1e2b8ed-51f4-4165-8a67-ea6b28010a6d","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
