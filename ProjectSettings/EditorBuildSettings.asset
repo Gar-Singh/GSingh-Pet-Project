@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PetProject.unity
     guid: f1f26b2992bf4fb45936c8bc7d768590
+  - enabled: 1
+    path: Assets/Scenes/LOSE.unity
+    guid: 1963e626658a96b4384c5ca0ed092b3d
   m_configObjects: {}
